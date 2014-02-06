@@ -7,7 +7,7 @@
         android:title="@string/action_networks" />
 
    <item 
-		android:id="@+id/action_secure_mode"
+	android:id="@+id/action_secure_mode"
         android:orderInCategory="101"
         android:showAsAction="never"
         android:checkable="true"
@@ -18,5 +18,10 @@
         android:orderInCategory="102"
         android:showAsAction="never"
         android:title="@string/action_about" />
-
+        
+    <item
+    	android:id="@+id/action_changelog"
+	android:orderInCategory="103"
+	android:ShowAsAction="never"
+	android:title="@string/action_changelog" />
 </menu>
