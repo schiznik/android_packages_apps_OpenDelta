@@ -13,6 +13,8 @@
     <string name="network_unknown">Other</string>
 
     <string name="action_about">About</string>
+    
+    <string name="action_changelog">Changelog</string>
 
     <string name="about_content"><![CDATA[
         Copyright &copy; _COPYRIGHT_OPENDELTA_ <b>Jorrit \'Chainfire\' Jongma</b><br>
