@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#Build script
+#Usage "omni-plain mako" or "omni-plain i9100"
+cd /android/omnirom/
+rm -rf out/target/product/$1/omni-4*
+. build/envsetup.sh
+brunch $1
+sudo cp  -av out/target/product/$1/omni-* /android/delta/publish/$1/
+cd /android/delta
+opendelta.sh $1
+
+
